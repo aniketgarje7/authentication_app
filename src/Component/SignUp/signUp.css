@@ -1,0 +1,38 @@
+.form-control{
+    border:0;
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+    
+    
+}
+.form-control:focus{
+    background-color: rgb(72, 67, 67);
+    color: aliceblue;
+ 
+}
+.form-control:focus::placeholder{
+    color: aliceblue;
+}
+p{
+    font-size: small;
+    color: red;
+}
+.containerSignUp{
+    background-color: black;
+   height: 92vh;
+   margin: 0;
+   margin-right: 30px;
+   max-width: 100%;
+   max-height: 100%;
+  
+}
+h1{
+    color: rgb(228, 219, 219);
+    padding:15px
+}
+.signUpButton{
+   margin-top: 20px;
+   margin-left: 10px;
+}
+
