@@ -12,7 +12,7 @@ const Header=()=> {
     <>
     <Navbar bg="dark" variant="dark">
         <Container className='jigar'>
-          <Navbar.Brand as={NavLink} to='/'>Header</Navbar.Brand>
+          <Navbar.Brand as={NavLink} to='/authentication_app'>Header</Navbar.Brand>
           <Nav className="alignRight">
             
             <Nav.Link as={NavLink} to='/signUp'>SignUp</Nav.Link>

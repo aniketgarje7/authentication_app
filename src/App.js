@@ -12,7 +12,7 @@ const App= ()=> {
    <BrowserRouter>
        <Header  />
         <Switch>
-        <Route  path='/' exact >
+        <Route  path='/authentication_app' exact >
         <SignUp />
         </Route>
         <Route  path='/signUp'>
